@@ -38,7 +38,7 @@ App.getInstance().startActivity(intent);
 SharedPreferences sharedPref = App.getInstance().getSharedPreferences(App.getInstance().getString(R.string.some_name), Context.MODE_PRIVATE);
 ```
 
-# We can declare some other method or properties in App class ang use in other classes:
+# 4- We can declare some other method or properties in App class ang use in other classes:
 ```Java
 import android.app.Application;
 
@@ -60,4 +60,13 @@ public class App extends Application {
         return name;
     }
 }
+```
+
+## 5- Dont forger to put attribute in AndroidManifest.xml:
+
+```xml
+...
+<application
+        android:name=".App"
+        ...
 ```
