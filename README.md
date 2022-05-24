@@ -62,7 +62,7 @@ public class App extends Application {
 }
 ```
 
-## 5- Dont forger to put attribute in AndroidManifest.xml:
+## 5- Dont forget to put attribute in AndroidManifest.xml:
 
 ```xml
 ...
